@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Dependency directories
+packages/
+node_modules/
+
+# Logs
+*.log
+logs/
+*.benchmarkDotNet.*
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# BenchmarkDotNet Artifacts
+BenchmarkDotNet.Artifacts/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+# Dotnet watch / hot reload
+**/hotreload-agent*
